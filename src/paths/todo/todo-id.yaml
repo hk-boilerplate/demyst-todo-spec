@@ -1,0 +1,28 @@
+get:
+  summary: Returns the todo specified
+  operationId: getTodoById
+  parameters:
+    - name: todoId
+      in: path
+      required: true
+      schema:
+        type: string
+  responses:
+    "200":
+      description: A todo item
+      content:
+        application/json:
+          schema:
+            $ref: "../../schemas/todo/Todo.yaml"
+    "404":
+      description: Not found error
+      content:
+        application/json:
+          schema:
+            $ref: "../../schemas/common/ErrorResponse.yaml"
+    "500":
+      description: Internal server error
+      content:
+        application/json:
+          schema:
+            $ref: "../../schemas/common/ErrorResponse.yaml"

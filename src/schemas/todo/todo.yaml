@@ -1,0 +1,15 @@
+type: object
+required:
+  - id
+  - title
+  - status
+properties:
+  id:
+    type: string
+    description: The unique identifier for the todo item
+  title:
+    type: string
+    description: The title for the todo item
+  status:
+    type: boolean
+    description: The status of the todo item

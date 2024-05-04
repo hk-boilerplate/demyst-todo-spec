@@ -1,0 +1,4 @@
+ErrorResponse:
+  $ref: "./common/ErrorResponse.yaml"
+Todo:
+  $ref: "./todo/Todo.yaml"
