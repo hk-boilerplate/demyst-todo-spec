@@ -6,7 +6,7 @@ get:
       in: path
       required: true
       schema:
-        type: string
+        type: number
   responses:
     "200":
       description: A todo item
