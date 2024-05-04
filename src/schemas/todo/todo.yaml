@@ -5,7 +5,7 @@ required:
   - status
 properties:
   id:
-    type: string
+    type: number
     description: The unique identifier for the todo item
   title:
     type: string
