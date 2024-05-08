@@ -3,7 +3,7 @@ required:
   - userId
   - id
   - title
-  - status
+  - completed
 properties:
   userId:
     type: number
