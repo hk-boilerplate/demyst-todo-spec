@@ -1,15 +1,19 @@
 type: object
 required:
+  - userId
   - id
   - title
   - status
 properties:
+  userId:
+    type: number
+    description: The user id of the user
   id:
     type: number
     description: The unique identifier for the todo item
   title:
     type: string
     description: The title for the todo item
-  status:
+  completed:
     type: boolean
     description: The status of the todo item
